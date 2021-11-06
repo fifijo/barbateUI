@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "module": "esnext",
+    "target": "es5",
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "sourceMap": true,
+    "allowJs": false,
+    "declaration": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strict": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "jsx": "react",
+    "paths": {
+      "@*": [ "./*" ]
+    },
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": ["node_modules", "dist", "src/playground"]
+}

@@ -1,0 +1,45 @@
+{
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx"
+    ],
+    "verbose": false,
+    "setupFiles": [
+      "<rootDir>/src/config/tests/setup/settings.js",
+      "<rootDir>/src/config/tests/setup/overrides.js"
+    ],
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!**/vendor/**"
+    ],
+    "coverageDirectory": "coverage",
+    "notify": true,
+    "slowTestThreshold": 2,
+    "reporters": [
+      "default"
+    ],
+    "testPathIgnorePatterns": [
+      "<rootDir>/src/config/tests/setup/"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 0,
+        "functions": 0,
+        "lines": 0,
+        "statements": 0
+      }
+    }
+  },
+  "moduleNameMapper": {
+    "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/src/config/tests/setup/fileMock.js"
+  }
+}
