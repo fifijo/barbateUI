@@ -16,8 +16,9 @@ node_modules
 lib-cov
 
 # Coverage directory used by tools like istanbul
-coverage
-*.lcov
+coverage/lcov-report
+coverage/coverage-summary.json
+coverage/lcov.info
 
 # Optional npm cache directory
 .npm

@@ -5,7 +5,6 @@ specifiers:
   '@babel/plugin-proposal-class-properties': ^7.16.0
   '@babel/plugin-syntax-dynamic-import': ^7.8.3
   '@babel/plugin-transform-runtime': ^7.16.0
-  '@babel/preset-typescript': ^7.16.0
   '@babel/runtime': ^7.16.0
   '@rollup/plugin-commonjs': ^21.0.1
   '@rollup/plugin-node-resolve': ^13.0.6
@@ -27,6 +26,7 @@ specifiers:
   eslint-plugin-react-hooks: ^4.2.0
   husky: ^7.0.4
   jest: ^27.3.1
+  jest-coverage-badges: 1.1.2
   nock: ^13.1.4
   node-notifier: ^10.0.0
   parcel: ^2.0.0
@@ -46,7 +46,6 @@ devDependencies:
   '@babel/plugin-proposal-class-properties': 7.16.0_@babel+core@7.16.0
   '@babel/plugin-syntax-dynamic-import': 7.8.3_@babel+core@7.16.0
   '@babel/plugin-transform-runtime': 7.16.0_@babel+core@7.16.0
-  '@babel/preset-typescript': 7.16.0_@babel+core@7.16.0
   '@babel/runtime': 7.16.0
   '@rollup/plugin-commonjs': 21.0.1_rollup@2.59.0
   '@rollup/plugin-node-resolve': 13.0.6_rollup@2.59.0
@@ -68,6 +67,7 @@ devDependencies:
   eslint-plugin-react-hooks: 4.2.0_eslint@8.2.0
   husky: 7.0.4
   jest: 27.3.1_node-notifier@10.0.0
+  jest-coverage-badges: 1.1.2
   nock: 13.1.4
   node-notifier: 10.0.0
   parcel: 2.0.0
@@ -485,34 +485,6 @@ packages:
       babel-plugin-polyfill-corejs3: 0.3.0_@babel+core@7.16.0
       babel-plugin-polyfill-regenerator: 0.2.3_@babel+core@7.16.0
       semver: 6.3.0
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
-  /@babel/plugin-transform-typescript/7.16.1_@babel+core@7.16.0:
-    resolution: {integrity: sha512-NO4XoryBng06jjw/qWEU2LhcLJr1tWkhpMam/H4eas/CDKMX/b2/Ylb6EI256Y7+FVPCawwSM1rrJNOpDiz+Lg==}
-    engines: {node: '>=6.9.0'}
-    peerDependencies:
-      '@babel/core': ^7.0.0-0
-    dependencies:
-      '@babel/core': 7.16.0
-      '@babel/helper-create-class-features-plugin': 7.16.0_@babel+core@7.16.0
-      '@babel/helper-plugin-utils': 7.14.5
-      '@babel/plugin-syntax-typescript': 7.16.0_@babel+core@7.16.0
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
-  /@babel/preset-typescript/7.16.0_@babel+core@7.16.0:
-    resolution: {integrity: sha512-txegdrZYgO9DlPbv+9QOVpMnKbOtezsLHWsnsRF4AjbSIsVaujrq1qg8HK0mxQpWv0jnejt0yEoW1uWpvbrDTg==}
-    engines: {node: '>=6.9.0'}
-    peerDependencies:
-      '@babel/core': ^7.0.0-0
-    dependencies:
-      '@babel/core': 7.16.0
-      '@babel/helper-plugin-utils': 7.14.5
-      '@babel/helper-validator-option': 7.14.5
-      '@babel/plugin-transform-typescript': 7.16.1_@babel+core@7.16.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5006,6 +4978,14 @@ packages:
       - utf-8-validate
     dev: true
 
+  /jest-coverage-badges/1.1.2:
+    resolution: {integrity: sha512-44A7i2xR6os8+fWk8ZRM6W4fKiD2jwKOLU9eB3iTIIWACd9RbdvmiCNpQZTOsUBhKvz7aQ/ASFhu5JOEhWUOlg==}
+    engines: {node: '>=6.11', npm: '>=5.3'}
+    hasBin: true
+    dependencies:
+      mkdirp: 0.5.1
+    dev: true
+
   /jest-diff/27.3.1:
     resolution: {integrity: sha512-PCeuAH4AWUo2O5+ksW4pL9v5xJAcIKPUPfIhZBcG1RKv/0+dvaWTQK1Nrau8d67dp65fOqbeMdoil+6PedyEPQ==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
@@ -5826,8 +5806,20 @@ packages:
       brace-expansion: 1.1.11
     dev: true
 
+  /minimist/0.0.8:
+    resolution: {integrity: sha1-hX/Kv8M5fSYluCKCYuhqp6ARsF0=}
+    dev: true
+
   /minimist/1.2.5:
     resolution: {integrity: sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==}
+    dev: true
+
+  /mkdirp/0.5.1:
+    resolution: {integrity: sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM=}
+    deprecated: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+    hasBin: true
+    dependencies:
+      minimist: 0.0.8
     dev: true
 
   /mkdirp/0.5.5:

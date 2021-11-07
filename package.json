@@ -26,6 +26,7 @@
     "lint": "node_modules/.bin/eslint --fix -- ./src",
     "test": "node_modules/.bin/jest --detectOpenHandles",
     "test:e2e": "cypress open",
+    "test:badges": "jest-coverage-badges",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
     "pretty-quick": "pretty-quick --staged",
     "release": "release-it --no-npm",
@@ -70,7 +71,8 @@
     "rollup-plugin-typescript2": "^0.30.0",
     "ts-jest": "^27.0.7",
     "tslib": "^2.3.1",
-    "typescript": "^4.4.4"
+    "typescript": "^4.4.4",
+    "jest-coverage-badges": "1.1.2"
   },
   "peerDependencies": {
     "react": "^17.0.2",

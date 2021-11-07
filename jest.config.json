@@ -19,15 +19,17 @@
   ],
   "collectCoverage": true,
   "collectCoverageFrom": [
-    "src/**/*.{js,jsx}",
+    "src/**/*.{ts,tsx}",
     "!**/node_modules/**",
     "!**/vendor/**"
   ],
   "coverageDirectory": "coverage",
   "notify": true,
   "slowTestThreshold": 2,
-  "reporters": [
-    "default"
+  "coverageReporters": [
+    "json-summary",
+    "text",
+    "lcov"
   ],
   "testPathIgnorePatterns": [
     "<rootDir>/src/config/tests"

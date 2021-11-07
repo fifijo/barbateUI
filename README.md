@@ -9,10 +9,12 @@
   <a href="https://github.com/fifijo/barbateUI/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
-  <a href="https://github.com/fifijo/barbateUI/blob/master/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/fifijo/barbate-ui" />
-  </a>
 </p>
+
+![img](coverage/badge-branches.svg)
+![img](coverage/badge-functions.svg)
+![img](coverage/badge-lines.svg)
+![img](coverage/badge-statements.svg)
 
 > WIP
 
