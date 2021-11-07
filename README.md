@@ -47,7 +47,7 @@ pnpm test
 
 - [x] Setup Testing Library
 - [x] Setup Cypress
-- [ ] Setup Husky
+- [x] Setup Husky
 - [ ] Setup CI/CD
 - [ ] Add a library for writing CSS styles with JavaScript
 - [ ] Add live style guide
