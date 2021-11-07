@@ -5,10 +5,7 @@
   "module": "build/index.es.js",
   "description": "WIP",
   "author": "Fifijo",
-  "license" : {
-    "type" : "MIT",
-    "url" : "https://github.com/fifijo/barbateUI/blob/main/LICENSE"
-  },
+  "license": "MIT",
   "homepage": "https://github.com/fifijo/barbateUI#readme",
   "repository": {
     "type": "git",
