@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to Barbate UI</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
   <img src="https://img.shields.io/badge/node-%3E%3D16.13.0-blue.svg" />
   <img src="https://img.shields.io/badge/pnpm-%3E%3D6.0.0-blue.svg" />
   <a href="https://github.com/fifijo/barbateUI#readme" target="_blank">
