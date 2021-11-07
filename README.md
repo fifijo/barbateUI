@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to barbate-ui 👋</h1>
+<h1 align="center">Welcome to Barbate UI</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <img src="https://img.shields.io/badge/node-%3E%3D16.13.0-blue.svg" />
@@ -43,13 +43,13 @@ pnpm test
 
 ## TODO
 
-- [x] Setup unit tests
-- [x] Setup integration tests
-- [x] Setup e2e tests
-- [ ] Setup husky pre-push hook
-- [ ] Setup CI
-- [ ] Setup CD
-- [ ] Add Storybook or relevant style guide script
+- [x] Setup Testing library
+- [x] Setup Cypress
+- [ ] Setup Husky and
+- [ ] Setup CI/CD
+- [ ] Add a library for writing CSS styles with JavaScript
+- [ ] Add live style guide
+- [ ] Add components
 
 ## Author
 
