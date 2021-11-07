@@ -1,9 +1,12 @@
 import React from 'react'
-import { mount } from '@cypress/react'
+import { render, screen } from '@testing-library/react'
+import '@testing-library/jest-dom'
 import Button from './Button'
 
-it('renders button', () => {
-  mount(<Button />)
+const { getByText } = screen
 
-  cy.get('button').should('be.visible')
+test('renders a button', () => {
+  render(<Button>Just a button</Button>)
+
+  expect(getByText('Just a button')).toBeInTheDocument()
 })

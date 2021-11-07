@@ -63,7 +63,7 @@ This project is [MIT](https://github.com/fifijo/barbateUI/blob/master/LICENSE) l
 ## TODO
 
 - [x] Setup unit tests
-- [ ] Setup integration tests
+- [x] Setup integration tests
 - [x] Setup e2e tests
 - [ ] Setup husky pre-push hook
 - [ ] Setup CI
