@@ -45,9 +45,9 @@ pnpm test
 
 ## TODO
 
-- [x] Setup Testing library
+- [x] Setup Testing Library
 - [x] Setup Cypress
-- [ ] Setup Husky and
+- [ ] Setup Husky
 - [ ] Setup CI/CD
 - [ ] Add a library for writing CSS styles with JavaScript
 - [ ] Add live style guide
