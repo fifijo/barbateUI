@@ -5,17 +5,20 @@ import typescript from 'rollup-plugin-typescript2'
 import packageJson from './package.json'
 
 export default {
+  external: [
+    'styled-components'
+  ],
   input: 'src/components/index.ts',
   output: [
     {
       format: 'cjs',
-      file: `./dist/${packageJson.main}`,
+      file: `${packageJson.main}`,
       exports: 'named',
       sourcemap: true
     },
     {
       format: 'es',
-      file: `./dist/${packageJson.module}`,
+      file: `${packageJson.module}`,
       exports: 'named',
       sourcemap: true
     }
@@ -29,7 +32,10 @@ export default {
     typescript({
       clean: true,
       rollupCommonJSResolveHack: true,
-      exclude: ['node_modules', 'src/playground']
+      tsconfigOverride: {
+        exclude: ["**/*.test.tsx"]
+      },
+      exclude: ['node_modules', 'src/playground', 'src/**/*.test.tsx']
     }),
   ]
 }
