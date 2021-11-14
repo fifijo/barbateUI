@@ -1,22 +1,20 @@
-import type { ButtonHTMLAttributes } from 'react'
+import styled from 'styled-components/native'
 import React from 'react'
 
-interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
-  bgColor?: string
-  textColor?: string
+type Props = {
+  disabled: boolean,
+  label: string,
+  children: React.ReactNode
 }
 
-const BUTTON: React.FC<Props> = ({
-  bgColor = 'yellow',
-  textColor = 'black',
-  children,
-  ...rest
-}) => {
-  return (
-    <button style={{ backgroundColor: bgColor, color: textColor }} {...rest}>
-      {children}
-    </button>
-  )
-}
+const Button = ({ disabled = false, label = 'Button' }: Props) => (
+  <Button disabled={disabled} label={label}>
+    <ButtonText>{label}</ButtonText>
+  </Button>
+)
 
-export default BUTTON
+const ButtonText = styled.Text`
+  font-size: 17px;
+`
+
+export default Button

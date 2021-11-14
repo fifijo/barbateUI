@@ -14,13 +14,13 @@ export default {
       format: 'cjs',
       file: `${packageJson.main}`,
       exports: 'named',
-      sourcemap: true
+      sourcemap: false
     },
     {
       format: 'es',
       file: `${packageJson.module}`,
       exports: 'named',
-      sourcemap: true
+      sourcemap: false
     }
   ],
   plugins: [

@@ -11,6 +11,7 @@
     "allowJs": false,
     "declaration": true,
     "moduleResolution": "node",
+    "alwaysStrict": true,
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
