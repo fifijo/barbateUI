@@ -11,7 +11,7 @@ type Props = {
 const Cacao = ({}: Props) => (
   <ThemeProvider theme={theme.default}>
     <Wrapper>
-      Cacao demo { '' }
+      Cacao demo {''}
       <Button label='Just a fancy button' />
     </Wrapper>
   </ThemeProvider>

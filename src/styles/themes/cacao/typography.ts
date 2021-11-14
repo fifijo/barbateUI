@@ -1,5 +1,5 @@
-import { css } from 'styled-components';
-import text from './text';
+import { css } from 'styled-components'
+import text from './text'
 const { font, size, weight } = text
 
 const typography = css`
@@ -9,6 +9,6 @@ const typography = css`
   h1 {
     font-size: ${size.heading.desktop.h1}px;
   }
-`;
+`
 
 export default typography

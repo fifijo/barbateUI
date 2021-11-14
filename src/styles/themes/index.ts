@@ -1,4 +1,4 @@
-import cacao from './cacao';
+import cacao from './cacao'
 import { Theme } from './themeTypes'
 
 const theme: Theme = {

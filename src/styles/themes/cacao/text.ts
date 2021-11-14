@@ -3,7 +3,7 @@ import { Text } from '../themeTypes'
 const text: Text = {
   font: {
     heading: '"Inter", Georgia, serif',
-    body: '"Open Sans", Helvetica, Arial, sans-serif',
+    body: '"Open Sans", Helvetica, Arial, sans-serif'
   },
   size: {
     heading: {
@@ -14,18 +14,18 @@ const text: Text = {
         h4: 18,
         h5: 16,
         h6: 14
-      },
+      }
     },
     body: {
       desktop: {
         regular: 24
-      },
+      }
     }
   },
   weight: {
     light: 200,
     regular: 400,
-    bold: 700,
+    bold: 700
   }
 }
 

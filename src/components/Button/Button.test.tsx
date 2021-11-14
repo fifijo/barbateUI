@@ -8,7 +8,11 @@ import theme from '../../styles/themes'
 const { getByText } = screen
 
 test('renders a button', () => {
-  render(<ThemeProvider theme={theme.default}><Button label='Just a button' /></ThemeProvider>)
+  render(
+    <ThemeProvider theme={theme.default}>
+      <Button label='Just a button' />
+    </ThemeProvider>
+  )
 
   expect(getByText('Just a button')).toBeInTheDocument()
 })
