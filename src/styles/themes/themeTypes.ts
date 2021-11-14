@@ -1,3 +1,7 @@
+interface Theme {
+  default: object
+}
+
 interface Text {
   font: {
     heading: string;
@@ -47,6 +51,7 @@ interface Typography {
 
 export {
   Text,
+  Theme,
   Colors,
   Typography
 }

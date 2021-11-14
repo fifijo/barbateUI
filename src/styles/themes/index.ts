@@ -1,6 +1,7 @@
 import cacao from './cacao';
+import { Theme } from './themeTypes'
 
-const theme = {
+const theme: Theme = {
   default: cacao
 }
 
