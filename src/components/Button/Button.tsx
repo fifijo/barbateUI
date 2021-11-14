@@ -1,20 +1,17 @@
-import styled from 'styled-components/native'
 import React from 'react'
+import { ButtonWrapper } from './Button.styles'
 
 type Props = {
-  disabled: boolean,
+  disabled?: boolean,
   label: string,
-  children: React.ReactNode
+  children?: React.ReactNode
 }
 
-const Button = ({ disabled = false, label = 'Button' }: Props) => (
-  <Button disabled={disabled} label={label}>
-    <ButtonText>{label}</ButtonText>
-  </Button>
+const Button = ({ label = 'Button' }: Props) => (
+  <ButtonWrapper>
+    {label}
+  </ButtonWrapper>
 )
 
-const ButtonText = styled.Text`
-  font-size: 17px;
-`
 
 export default Button

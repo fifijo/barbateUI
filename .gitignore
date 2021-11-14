@@ -20,6 +20,8 @@ coverage/lcov-report
 coverage/coverage-summary.json
 coverage/lcov.info
 
+build
+
 # Optional npm cache directory
 .npm
 

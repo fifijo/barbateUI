@@ -1,10 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Button } from '../components/index'
+import Cacao from './cacao'
 
-ReactDOM.render(
-  <Button bgColor='green' textColor='white'>
-    Submit
-  </Button>,
-  document.getElementById('root')
-)
+ReactDOM.render(<Cacao />,document.getElementById('root'))
