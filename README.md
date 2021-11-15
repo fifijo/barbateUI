@@ -51,7 +51,7 @@ pnpm test
 - [x] Setup CI/CD
 - [x] Add a library for writing CSS styles with JavaScript
 - [ ] Fix import using Babel module resolver alias
-- [ ] Add live style guide
+- [x] Add live style guide/documentation
 - [ ] Add components
 
 ## Author
