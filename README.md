@@ -49,9 +49,9 @@ pnpm test
 - [x] Setup Cypress
 - [x] Setup Husky
 - [x] Setup CI/CD
-- [x] Add a library for writing CSS styles with JavaScript
-- [ ] Fix import using Babel module resolver alias
+- [x] Add styled-components libarary to style CSS
 - [x] Add live style guide/documentation
+- [ ] Fix import using Babel module resolver alias
 - [ ] Add components
 
 ## Author
