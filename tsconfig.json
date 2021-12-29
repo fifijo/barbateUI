@@ -2,8 +2,12 @@
   "compilerOptions": {
     "baseUrl": "./src",
     "paths": {
-      "@components/*": ["./src/components/*"],
-      "@themes": ["./styles/themes/*"]
+      "@components/*": [
+        "./src/components/*"
+      ],
+      "@themes": [
+        "./styles/themes/*"
+      ]
     },
     "module": "esnext",
     "target": "esnext",
@@ -28,13 +32,17 @@
     "downlevelIteration": true,
     "jsx": "react"
   },
-  "include": [
-    "src/**/*"
-  ],
   "exclude": [
     "rollup.config.js",
-    "src/playground",
+    //"src/playground",
     "build",
   ],
-  "types": ["node"]
+  "types": [
+    "node"
+  ],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ]
 }

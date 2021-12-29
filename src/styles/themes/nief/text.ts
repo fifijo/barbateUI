@@ -1,4 +1,4 @@
-import { Text } from '../themeTypes'
+import type { Text } from '../themeTypes'
 
 const text: Text = {
   font: {

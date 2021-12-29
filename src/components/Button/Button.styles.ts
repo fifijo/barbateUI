@@ -1,13 +1,14 @@
-import styled from 'styled-components'
+/* eslint-disable @typescript-eslint/prefer-readonly-parameter-types */
+import { styled } from '../../styles/themes/index'
 
-export const ButtonWrapper = styled.button`
-  ${({ theme }) => theme.typography};
-  background-color: ${({ theme }) => theme.colors.secondary.secondary1};
-  color: ${({ theme }) => theme.colors.primary.primary1};
+export const buttonWrapper = styled.button`
+  background-color: ${({ theme: { color } }): string => color.primary};
+  color: ${({ theme: { color } }): string => color.secondary};
   display: flex;
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
   border: 0;
   padding: 12px;
+  margin: 0 10px;
 `

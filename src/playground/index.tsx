@@ -1,5 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Cacao from './cacao'
+import Nief from './nief'
 
-ReactDOM.render(<Cacao />, document.getElementById('root'))
+ReactDOM.render(<Nief />, document.getElementById('root'))

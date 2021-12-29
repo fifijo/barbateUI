@@ -1,14 +1,14 @@
 import React from 'react'
-import { ButtonWrapper } from './Button.styles'
+import { buttonWrapper as ButtonWrapper } from './Button.styles'
 
-type Props = {
-  disabled?: boolean
-  label: string
-  children?: React.ReactNode
+interface Props {
+  readonly disabled?: boolean
+  readonly label: string | 'Button'
+  readonly children?: React.ReactNode
 }
 
-const Button = ({ label = 'Button' }: Props) => (
+const button = ({ label }: Props): JSX.Element => (
   <ButtonWrapper>{label}</ButtonWrapper>
 )
 
-export default Button
+export default button
