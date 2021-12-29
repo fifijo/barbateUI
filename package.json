@@ -24,7 +24,7 @@
     "build": "rollup --config",
     "start": "parcel --dist-dir dist-playground ./src/playground/index.html",
     "lint": "eslint --fix -- ./src",
-    "test": "node_modules/.bin/jest --detectOpenHandles",
+    "test": "jest --detectOpenHandles",
     "test:e2e": "cypress open",
     "test:badges": "jest-coverage-badges",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
