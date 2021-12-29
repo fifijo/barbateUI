@@ -52,7 +52,36 @@ pnpm test
 - [x] Add styled-components libarary to style CSS
 - [x] Add live style guide/documentation
 - [ ] Fix import using Babel module resolver alias
-- [ ] Add components
+- [ ] Add roadmap
+- [ ] Add theme switcher
+- [ ] Add theme generator
+- [ ] Update documentation
+- [ ] Add components, check TODO components
+
+### TODO components
+- [ ] Alert
+- [ ] Avatar
+- [ ] Badge
+- [ ] Button
+- [ ] Checkbox
+- [ ] Dialog
+- [ ] Form Field
+- [ ] Overlay
+- [ ] Radio
+- [ ] Search
+- [ ] Select
+- [ ] Spinner
+- [ ] Status
+- [ ] Switch
+- [ ] Tab
+- [ ] Table
+- [ ] Tag Field
+- [ ] Text Field
+- [ ] Textarea
+- [ ] Toaster
+- [ ] Tooltip
+
+
 
 ## Author
 
