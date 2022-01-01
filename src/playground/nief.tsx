@@ -1,7 +1,7 @@
 import React from 'react'
 import { ThemeProvider } from 'styled-components'
 import { theme } from '@themes/nief'
-import { resetCSS as ResetCSS } from '../styles/reset'
+import { resetCSS as ResetCSS } from '@themes/reset'
 import { wrapper as Wrapper } from './styles'
 import { Button } from '@components'
 
