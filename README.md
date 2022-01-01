@@ -51,12 +51,13 @@ pnpm test
 - [x] Setup CI/CD
 - [x] Add styled-components libarary to style CSS
 - [x] Add live style guide/documentation
-- [ ] Fix import using Babel module resolver alias
+- [x] Fix import using Babel module resolver alias
+- [ ] Add CodeCove
 - [ ] Add roadmap
 - [ ] Add theme switcher
 - [ ] Add theme generator
 - [ ] Update documentation
-- [ ] Add components, check TODO components
+- [ ] Add components
 
 ### TODO components
 - [ ] Alert

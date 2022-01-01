@@ -1,4 +1,4 @@
-import { styled } from '../styles/themes/index'
+import styled from 'styled-components'
 
 export const wrapper = styled.main`
   height: 100vh;

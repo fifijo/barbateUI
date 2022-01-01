@@ -3,13 +3,25 @@
     "@babel/plugin-syntax-dynamic-import",
     "@babel/plugin-proposal-class-properties",
     "@babel/plugin-transform-runtime",
-    ["module-resolver", {
-      "root": ["./src"],
-      "alias":[
-        { "@components": "./src/components" },
-        { "@themes": "./src/styles/themes/index" }
-      ],
-      "extensions": [".js", ".jsx", ".ts", ".tsx"]
-    }]
+    [
+      "module-resolver",
+      {
+        "root": [
+          "./src"
+        ],
+        "alias": [
+          {
+            "@components": "./src/components",
+            "@themes": "./src/styles/themes"
+          }
+        ],
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx"
+        ]
+      }
+    ]
   ]
 }

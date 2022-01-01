@@ -1,5 +1,4 @@
-const color = {
+export default {
   primary: 'black',
   secondary: 'white'
 }
-export default color

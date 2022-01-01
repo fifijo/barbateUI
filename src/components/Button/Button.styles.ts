@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/prefer-readonly-parameter-types */
-import { styled } from '../../styles/themes/index'
+import styled from 'styled-components'
 
 export const buttonWrapper = styled.button`
   background-color: ${({ theme: { color } }): string => color.primary};

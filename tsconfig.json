@@ -2,11 +2,8 @@
   "compilerOptions": {
     "baseUrl": "./src",
     "paths": {
-      "@components/*": [
-        "./src/components/*"
-      ],
-      "@themes": [
-        "./styles/themes/*"
+      "~/*": [
+        "./src/*"
       ]
     },
     "module": "esnext",
@@ -34,7 +31,6 @@
   },
   "exclude": [
     "rollup.config.js",
-    //"src/playground",
     "build",
   ],
   "types": [
@@ -43,6 +39,7 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx"
+    "**/*.tsx",
+    "decs.d.ts"
   ]
 }
