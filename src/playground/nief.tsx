@@ -9,7 +9,7 @@ interface Props {
   children?: React.ReactNode
 }
 
-const nief = ({ }: Props) => (
+const nief = ({}: Props) => (
   <ThemeProvider theme={theme}>
     <ResetCSS />
     <Wrapper>
