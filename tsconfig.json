@@ -31,7 +31,7 @@
   },
   "exclude": [
     "rollup.config.js",
-    "playground",
+    "src/playground",
     "build",
   ],
   "types": [
