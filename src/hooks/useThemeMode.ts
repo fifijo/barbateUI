@@ -16,7 +16,7 @@ export const useThemeMode = (): object => {
 
   useEffect(() => {
     // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
-    const localTheme = JSON.parse(localStorage.getItem('theme') ?? '{}')
+    const localTheme = localStorage.getItem('theme') ?? '{"light"}'
 
     // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
     setTheme(localTheme)

@@ -10,7 +10,7 @@ interface Props {
   children?: React.ReactNode
 }
 
-const acme = ({ }: Props) => {
+const acme = ({}: Props) => {
   const { theme, themeToggler } = useThemeMode()
   const themeMode = theme === 'light' ? lightTheme : darkTheme
 
