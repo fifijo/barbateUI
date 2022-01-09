@@ -12,7 +12,9 @@
         "alias": [
           {
             "@components": "./src/components",
-            "@themes": "./src/styles/themes"
+            "@themes": "./src/styles/themes",
+            "@styles": "./src/styles",
+            "@hooks": "./src/hooks"
           }
         ],
         "extensions": [

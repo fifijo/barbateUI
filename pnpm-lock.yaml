@@ -30,6 +30,7 @@ specifiers:
   husky: ^7.0.4
   jest: ^27.3.1
   jest-coverage-badges: 1.1.2
+  local-storage-fallback: ^4.1.2
   nock: ^13.1.4
   node-notifier: ^10.0.0
   parcel: ^2.0.0
@@ -47,6 +48,7 @@ specifiers:
   typescript: ^4.4.4
 
 dependencies:
+  local-storage-fallback: 4.1.2
   react-icons: 4.3.1_react@17.0.2
 
 devDependencies:
@@ -2970,6 +2972,11 @@ packages:
       safe-buffer: 5.1.2
     dev: true
 
+  /cookie/0.3.1:
+    resolution: {integrity: sha1-5+Ch+e9DtMi6klxcWpboBtFoc7s=}
+    engines: {node: '>= 0.6'}
+    dev: false
+
   /core-js-compat/3.19.1:
     resolution: {integrity: sha512-Q/VJ7jAF/y68+aUsQJ/afPOewdsGkDtcMb40J8MbuWKlK3Y+wtHq8bTHKPj2WKWLIqmS5JhHs4CzHtz6pT2W6g==}
     dependencies:
@@ -5765,6 +5772,12 @@ packages:
       emojis-list: 3.0.0
       json5: 1.0.1
     dev: true
+
+  /local-storage-fallback/4.1.2:
+    resolution: {integrity: sha512-oMTj4q8vnZ5FUB/tclzrTgMppSJgGs3ng4fm7qXEK/NjdzNKkVVncMRlsML+l6FwV0WBoOk8rVD5GqNQIhcz8Q==}
+    dependencies:
+      cookie: 0.3.1
+    dev: false
 
   /locate-path/3.0.0:
     resolution: {integrity: sha512-7AO748wWnIhNqAuaty2ZWHkQHRSNfPVIsPIfwEOWO22AmaoVrWavlOcMR5nzTLNYvp36X220/maaRsrec1G65A==}

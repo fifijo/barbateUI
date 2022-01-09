@@ -2,8 +2,8 @@
 import styled from 'styled-components'
 
 export const buttonWrapper = styled.button`
-  background-color: ${({ theme: { color } }): string => color.primary};
-  color: ${({ theme: { color } }): string => color.secondary};
+  background-color: ${({ theme: { color } }): string => color.secondary};
+  color: ${({ theme: { color } }): string => color.primary};
   display: flex;
   justify-content: center;
   align-items: center;

@@ -1,5 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Nief from './nief'
+import Acme from './acme'
 
-ReactDOM.render(<Nief />, document.getElementById('root'))
+ReactDOM.render(<Acme />, document.getElementById('root'))
