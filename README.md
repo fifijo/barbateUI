@@ -55,7 +55,7 @@ pnpm test
 - [x] Add live style guide/documentation
 - [x] Fix import using Babel module resolver alias
 - [x] Add Codefactor
-- [ ] Add CodeCove
+- [x] Add Codacy
 - [ ] Add roadmap
 - [x] Add theme switcher
 - [ ] Add theme generator
