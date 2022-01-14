@@ -56,34 +56,34 @@ pnpm test
 - [x] Fix import using Babel module resolver alias
 - [x] Add Codefactor
 - [x] Add Codacy
-- [ ] Add roadmap
+- [] Add roadmap
 - [x] Add theme switcher
-- [ ] Add theme generator
-- [ ] Update documentation
-- [ ] Add components
+- [] Add theme generator
+- [] Update documentation
+- [] Add components
 
 ### TODO components
-- [ ] Alert
-- [ ] Avatar
-- [ ] Badge
-- [ ] Button
-- [ ] Checkbox
-- [ ] Dialog
-- [ ] Form Field
-- [ ] Overlay
-- [ ] Radio
-- [ ] Search
-- [ ] Select
-- [ ] Spinner
-- [ ] Status
-- [ ] Switch
-- [ ] Tab
-- [ ] Table
-- [ ] Tag Field
-- [ ] Text Field
-- [ ] Textarea
-- [ ] Toaster
-- [ ] Tooltip
+- [] Alert
+- [] Avatar
+- [] Badge
+- [] Button
+- [] Checkbox
+- [] Dialog
+- [] Form Field
+- [] Overlay
+- [] Radio
+- [] Search
+- [] Select
+- [] Spinner
+- [] Status
+- [] Switch
+- [] Tab
+- [] Table
+- [] Tag Field
+- [] Text Field
+- [] Textarea
+- [] Toaster
+- [] Tooltip
 
 
 
