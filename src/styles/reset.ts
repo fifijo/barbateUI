@@ -1,6 +1,8 @@
 import { css, createGlobalStyle } from 'styled-components'
 
 // prettier-ignore
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
 const reset = css`
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
