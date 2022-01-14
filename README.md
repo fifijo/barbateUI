@@ -11,6 +11,8 @@
   </a>
 </p>
 
+[![CodeFactor](https://www.codefactor.io/repository/github/fifijo/barbateui/badge)](https://www.codefactor.io/repository/github/fifijo/barbateui)
+
 ![img](coverage/badge-branches.svg)
 ![img](coverage/badge-functions.svg)
 ![img](coverage/badge-lines.svg)
@@ -52,6 +54,7 @@ pnpm test
 - [x] Add styled-components libarary to style CSS
 - [x] Add live style guide/documentation
 - [x] Fix import using Babel module resolver alias
+- [x] Add Codefactor
 - [ ] Add CodeCove
 - [ ] Add roadmap
 - [x] Add theme switcher
