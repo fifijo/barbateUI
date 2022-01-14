@@ -54,7 +54,7 @@ pnpm test
 - [x] Fix import using Babel module resolver alias
 - [ ] Add CodeCove
 - [ ] Add roadmap
-- [ ] Add theme switcher
+- [x] Add theme switcher
 - [ ] Add theme generator
 - [ ] Update documentation
 - [ ] Add components

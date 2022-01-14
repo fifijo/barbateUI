@@ -33,7 +33,7 @@
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
     "pretty-quick": "pretty-quick --staged",
     "release": "release-it --no-npm",
-    "prepare": "husky install ./src/config/husky",
+    "prepare": "husky install",
     "prebuild": "rm -rf ./dist"
   },
   "devDependencies": {
