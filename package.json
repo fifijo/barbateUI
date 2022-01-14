@@ -31,6 +31,7 @@
     "test:e2e": "cypress open",
     "test:badges": "jest-coverage-badges",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
+    "check-markdown": "remark . --quiet --frail --output",
     "pretty-quick": "pretty-quick --staged",
     "release": "release-it --no-npm",
     "prepare": "husky install",
@@ -73,6 +74,12 @@
     "pretty-quick": "3.1.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "remark-cli": "10.0.1",
+    "remark-lint-emphasis-marker": "3.1.1",
+    "remark-lint-list-item-indent": "3.1.1",
+    "remark-lint-strong-marker": "3.1.1",
+    "remark-preset-lint-consistent": "5.1.1",
+    "remark-preset-lint-recommended": "6.1.2",
     "rollup": "2.59.0",
     "rollup-plugin-peer-deps-external": "2.2.4",
     "rollup-plugin-typescript2": "0.30.0",
@@ -89,5 +96,27 @@
   "dependencies": {
     "local-storage-fallback": "4.1.2",
     "react-icons": "4.3.1"
+  },
+  "remarkConfig": {
+    "settings": {
+      "emphasis": "*",
+      "strong": "*"
+    },
+    "plugins": [
+      "remark-preset-lint-consistent",
+      "remark-preset-lint-recommended",
+      [
+        "remark-lint-list-item-indent",
+        "space"
+      ],
+      [
+        "remark-lint-emphasis-marker",
+        "*"
+      ],
+      [
+        "remark-lint-strong-marker",
+        "*"
+      ]
+    ]
   }
 }
